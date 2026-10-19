@@ -1,0 +1,38 @@
+# 虛擬環境與快取
+.venv/
+__pycache__/
+*.pyc
+# 編譯產物與二進位（GitHub 單檔上限 100 MB）
+cmake-build-debug/
+build/
+*.so
+*.so.*
+*.a
+*.o
+*.zip
+*.weights
+*.tiff
+DOGZILLA (1).zip
+DJI mini.zip
+ORB-SLAM3-YOLOv3-master_new.zip
+ORB-SLAM3-YOLOv3-master_new/ORB-SLAM3-YOLOv3-master/Trajectory of different algorithm.tiff
+ORB-SLAM3-YOLOv3-master_new/ORB-SLAM3-YOLOv3-master/Trajectory_of_indoor_environment.tiff
+ORB-SLAM3-YOLOv3-master_new/ORB-SLAM3-YOLOv3-master/opencv.zip
+ORB-SLAM3-YOLOv3-master_new/ORB-SLAM3-YOLOv3-master/Trajectory of indoor environment.tiff
+DJI mini/Video/DJI mini 2_operation.mp4
+ORB-SLAM3-YOLOv3-master_new/ORB-SLAM3-YOLOv3-master/Vocabulary/ORBvoc.txt
+ORB-SLAM3-YOLOv3-master_new/ORB-SLAM3-YOLOv3-master/Thirdparty/libtorch-cxx11-abi-shared-with-deps-1.11.0+cpu.zip
+ORB-SLAM3-YOLOv3-master_new/ORB-SLAM3-YOLOv3-master/Examples/Monocular/MH_01_easy.zip
+ORB-SLAM3-YOLOv3-master_new/ORB-SLAM3-YOLOv3-master/src/yolo/yolov3.weights
+ORB-SLAM3-YOLOv3-master_new/ORB-SLAM3-YOLOv3-master/Thirdparty/libtorch/lib/libtorch_cuda_cu.so
+ORB-SLAM3-YOLOv3-master_new/ORB-SLAM3-YOLOv3-master/Thirdparty/libtorch/lib/libtorch_cpu.so
+ORB-SLAM3-YOLOv3-master_new/ORB-SLAM3-YOLOv3-master/Thirdparty/libtorch/lib/libmkldnn.a
+ORB-SLAM3-YOLOv3-master_new/ORB-SLAM3-YOLOv3-master/Thirdparty/libtorch/lib/libtorch_cuda_cpp.so
+ORB-SLAM3-YOLOv3-master_new/ORB-SLAM3-YOLOv3-master/Thirdparty/libtorch/lib/libdnnl.a
+ORB-SLAM3-YOLOv3-master_new/ORB-SLAM3-YOLOv3-master/cmake-build-debug/CMakeFiles/ORB_SLAM3.dir/src/Tracking.cc.o
+ORB-SLAM3-YOLOv3-master_new/ORB-SLAM3-YOLOv3-master/cmake-build-debug/CMakeFiles/ORB_SLAM3.dir/src/MLPnPsolver.cpp.o
+ORB-SLAM3-YOLOv3-master_new/ORB-SLAM3-YOLOv3-master/cmake-build-debug/CMakeFiles/ORB_SLAM3.dir/src/Optimizer.cc.o
+ORB-SLAM3-YOLOv3-master_new/ORB-SLAM3-YOLOv3-master/cmake-build-debug/CMakeFiles/ORB_SLAM3.dir/src/G2oTypes.cc.o
+ORB-SLAM3-YOLOv3-master_new/ORB-SLAM3-YOLOv3-master/opencv-4.10.0/build/3rdparty/ippicv/ippicv_lnx/icv/lib/intel64/libippicv.a
+.claude/
+ORB-SLAM3-YOLOv3-master_new/ORB-SLAM3-YOLOv3-master/evo/

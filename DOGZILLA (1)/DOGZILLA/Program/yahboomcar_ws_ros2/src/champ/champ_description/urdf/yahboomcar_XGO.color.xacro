@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  
+<!-- 摔倒的构件摩擦 -->
+<xacro:property name="fall_mu"  value  = "3.0"/>
+<gazebo reference="base_link">
+  <material>Gazebo/Yellow</material>
+</gazebo>
+<gazebo reference="laser_link">
+  <material>Gazebo/Red</material>
+</gazebo>
+
+<gazebo  reference="camera_link">
+    <material>Gazebo/Green</material>
+</gazebo>
+
+<gazebo reference="lh_hip_link">
+    <material>Gazebo/Black</material>
+</gazebo>
+<gazebo reference="lf_hip_link">
+    <material>Gazebo/Black</material>
+</gazebo>
+<gazebo reference="rf_hip_link">
+    <material>Gazebo/Black</material>
+</gazebo>
+<gazebo reference="rh_hip_link">
+    <material>Gazebo/Black</material>
+</gazebo>
+
+<gazebo reference="lh_upper_leg_link">
+    <material>Gazebo/Purple</material>
+</gazebo>
+<gazebo reference="lf_upper_leg_link">
+    <material>Gazebo/Purple</material>
+</gazebo>
+<gazebo reference="rf_upper_leg_link">
+    <material>Gazebo/Purple</material>
+</gazebo>
+<gazebo reference="rh_upper_leg_link">
+    <material>Gazebo/Purple</material>
+</gazebo>
+<!--
+1. mu参数：沿第一摩擦方向的摩擦系数。
+2. mu2参数：沿第二摩擦方向的摩擦系数。在大多数情况下，mu2与mu具有相同的值。
+3. kp参数：即接触点的动态“刚度”当量系数。
+4. kd参数：即接触点的动态“阻尼”当量系数。 
+-->
+<!-- <xacro:property name="leg_mu1"  value  = "0.5"/>
+<xacro:property name="leg_mu2"  value  = "0.5"/>
+<xacro:property name="leg_kp"  value  = "1e15"/>
+<xacro:property name="leg_kd"  value  = "1e13"/>
+<xacro:property name="leg_max_vel"  value  = "2"/> -->
+  <!-- <gazebo reference="lh_foot_link">
+    <material>Gazebo/Blue</material>
+  </gazebo>
+  <gazebo reference="lf_foot_link">
+    <material>Gazebo/Blue</material>
+  </gazebo>
+    <gazebo reference="rf_foot_link">
+    <material>Gazebo/Blue</material>
+  </gazebo>
+    <gazebo reference="rh_foot_link">
+    <material>Gazebo/Blue</material>
+  </gazebo> -->
+
+  
+</robot>

@@ -1,0 +1,73 @@
+{
+	"abstract" : true,
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"FIND_PACKAGE",
+			"set_property"
+		],
+		"files" : 
+		[
+			"/snap/clion/455/bin/cmake/linux/x64/share/cmake-4.2/Modules/FindOpenMP.cmake",
+			"Thirdparty/g2o/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 757,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 774,
+				"parent" : 2
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "OpenMP::OpenMP_CXX::@f8c4e7b936044c71b29a",
+	"imported" : true,
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 4,
+			"fragment" : "/usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so"
+		},
+		{
+			"backtrace" : 4,
+			"fragment" : "/usr/lib/x86_64-linux-gnu/libpthread.a"
+		}
+	],
+	"local" : true,
+	"name" : "OpenMP::OpenMP_CXX",
+	"paths" : 
+	{
+		"build" : "Thirdparty/g2o",
+		"source" : "Thirdparty/g2o"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

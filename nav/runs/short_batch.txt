@@ -1,0 +1,19 @@
+== click -1.5,1.5
+   [summary] site:3：抵達且無碰撞 1/1
+各輪： [1]SUCCEEDED
+== click 1.0,2.5
+   [summary] site:3：抵達且無碰撞 0/1
+各輪： [1]ABORTED（第3/4段失敗）
+== click 0.0,4.5
+   [summary] site:3：抵達且無碰撞 1/1
+各輪： [1]SUCCEEDED
+== click -1.0,6.0
+   [summary] site:3：抵達且無碰撞 1/1
+各輪： [1]SUCCEEDED
+== click 0.5,6.5
+   [summary] site:3：抵達且無碰撞 1/1
+各輪： [1]SUCCEEDED
+== click 3.5,6.5
+   [summary] site:3：抵達且無碰撞 1/1
+各輪： [1]SUCCEEDED
+DONE

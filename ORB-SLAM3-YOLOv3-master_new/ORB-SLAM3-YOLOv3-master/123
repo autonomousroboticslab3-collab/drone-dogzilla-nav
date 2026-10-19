@@ -1,0 +1,8 @@
+NewDetectCommonRegions:
+1 取出一個KF作為檢測閉路關鍵幀
+2 如果距離上次閉路沒多久(小於10幀),或者MAP中關鍵幀總共還沒有10幀則不進行閉路偵測，return false
+3 如果系統為stereo並且map的kf小於5, return false
+4 如果map的kf數量小於12, 將該kf加入KFDB, return false
+5 
+
+ DetectCommonRegionsFromBoW(vpMergeBowCand, mpMergeMatchedKF, mpMergeLastCurrentKF, mg2oMergeSlw, mnMergeNumCoincidences, mvpMergeMPs, mvpMergeMatchedMPs);

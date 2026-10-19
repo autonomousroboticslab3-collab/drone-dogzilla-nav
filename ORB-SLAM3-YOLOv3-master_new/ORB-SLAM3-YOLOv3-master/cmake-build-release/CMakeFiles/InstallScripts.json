@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/t1204/Downloads/ORB-SLAM3-YOLOv3-master/cmake-build-release/cmake_install.cmake",
+		"/home/t1204/Downloads/ORB-SLAM3-YOLOv3-master/cmake-build-release/Thirdparty/g2o/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

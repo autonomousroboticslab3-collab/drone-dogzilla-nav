@@ -1,0 +1,19 @@
+
+######## 第 1/3 輪
+== 1/3 讀取機器人目前位姿（模擬「空拍機看到機器人，使用者在地圖上標出位置與朝向」）
+   機器人世界位姿 (-0.38, -0.00, -1°)，控制模式 = nav2
+== 2/3 空拍機端：規劃路徑
+   [goal 0] 規劃完成：路徑 3.7 m，目標在機器人座標系 (前 1.31, 左 2.48) m
+   [export] 已輸出 /home/t1204/thesis/nav/runs/shortB_1.0_2.5_it0_plan.json
+== 3/3 送進 Gazebo（逐段途經點，失敗即停）
+[bridge] 第 1/4 段 -> (0.04,1.00) SUCCEEDED
+[bridge] 第 2/4 段 -> (-0.09,1.81) SUCCEEDED
+[bridge] 第 3/4 段 -> (0.82,2.82) SUCCEEDED
+[bridge] 第 4/4 段 -> (1.04,2.43) SUCCEEDED
+   本輪結果：SUCCEEDED，模擬時間 69 s，翻倒 = False
+
+== 疊回空拍機地圖並用真值評分
+   [goal 0] (1.00,2.50) 路徑 3.7 m，抵達 用時 69s，離真實目標 0.19 m，離障礙最近 0.61 m
+   [summary] site:3：抵達且無碰撞 1/1
+圖：/home/t1204/thesis/nav/runs/shortB_1.0_2.5.png
+各輪： [1]SUCCEEDED
